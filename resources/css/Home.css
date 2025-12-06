@@ -1,0 +1,124 @@
+#home{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(249, 254, 255);
+
+    width: 100%;
+    height: 100%;
+
+}
+
+/* login */
+.card {
+    width: 28%;
+    height: 50%;
+
+    align-self: center;
+    border-radius: 30px;
+    background: #e0e0e0;
+    box-shadow: 15px 15px 30px #bebebe,
+               -15px -15px 30px #ffffff;
+  }
+
+
+
+/*   تسجيل الدخول   */
+ .dokhol{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(9, 114, 79);
+    
+    color: white;
+    border-top-left-radius: 30px ;
+    border-top-right-radius: 30px;
+    height: 60px;
+}
+
+
+/* 2 input et 1 button */ 
+
+.group{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;  
+
+}
+
+
+/*   input et label code  */
+.labelH{
+    color: #000000;
+}
+.input{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background-color: #e0e0e0;
+
+    width: 50%;
+    
+}
+
+.input:focus{
+    color: black;
+    background-color: #e0e0e0;
+    border: 0px white solid ;
+    /* outline => remove auto border in click event */
+    outline: none;
+
+    border-bottom: 2px rgba(9, 114, 79, 0.6) solid;
+}
+
+
+ /*Button code*/
+button {
+    font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+    font-size: 17px;
+    padding: 1em 2.7em;
+    font-weight: 500;
+    background: #1F2937;
+    color: white;
+    border: none;
+    position: relative;
+    overflow: hidden;
+    border-radius: 0.6em;
+   }
+   
+   .gradient {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    border-radius: 0.6em;
+    margin-top: -0.25em;
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.3));
+   }
+   
+   .transition {
+    transition-timing-function: cubic-bezier(0, 0, 0.2, 1);
+    transition-duration: 500ms;
+    background-color: rgba(16, 185, 129, 0.6);
+    border-radius: 9999px;
+    width: 0;
+    height: 0;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+   }
+   
+   button:hover .transition {
+    width: 14em;
+    height: 14em;
+   }
+   
+   button:active {
+    transform: scale(0.97);
+   }
+
+   .label{
+    color: white;
+   }

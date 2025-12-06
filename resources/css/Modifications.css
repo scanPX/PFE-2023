@@ -1,0 +1,44 @@
+.div_Modif{
+    display: flex;
+    flex-direction: row;
+
+    
+    height: 100%;
+}
+
+.div_btn_Modif{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.div_affiche_Modif{
+    width: 70%;
+    height: 100%;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    border:2px solid black;
+    border-radius: 15px;
+
+}
+
+.buttons_Modif{
+    width: 60%;
+    height: 10%;
+    border: none;
+    border-radius: 15px;
+
+    font-size: 100%;
+    background-color: brown;
+    color:white;
+}
+#to_Accueil{
+    text-decoration: none;
+    color: white;
+}

@@ -1,0 +1,45 @@
+#NavLink{
+    display: flex;
+    flex-direction: column;
+
+    position: relative;
+    left: 52%;
+
+    border-radius: 15px;
+    width:20%;
+    height: 15%;
+    background-color: brown;
+}
+
+/* ------------ Link -------------- */
+.link{
+    /* remouve underline from link */
+    text-decoration: none;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+    font-size: 30px;
+    width: 100%;
+    height: 100%;
+    border-bottom: 2px solid white; 
+    color: white;
+}
+
+#link1{
+    border-left: none;
+}
+#link2{
+    border-right: none;
+}
+/* Link Event */
+.link:hover{
+    font-size: 32px;
+    color: yellow;
+}
+.link:focus{
+    font-size: 32px;
+    color: yellow;
+}
